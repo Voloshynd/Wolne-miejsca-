@@ -5,7 +5,7 @@ function getCoupeNumber(providedNumber) {
         return
     } else {
 for(number of coupeNumbers){
-    if (providedNumber > 16 || providedNumber < 0){
+    if (providedNumber > 16 || providedNumber <= 0){
         console.log("Takich miejsc nie istnieje")
         return 
     } else if (number == providedNumber){
